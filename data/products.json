@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Auriculares In-Ear",
+    "price": 15999,
+    "image": "assets/earbuds.jpg",
+    "stock": 15,
+    "category": "Audio"
+  },
+  {
+    "id": 2,
+    "name": "Mouse Inalámbrico",
+    "price": 12999,
+    "image": "assets/mouse.jpg",
+    "stock": 10,
+    "category": "Periféricos"
+  },
+  {
+    "id": 3,
+    "name": "Teclado Mecánico",
+    "price": 39999,
+    "image": "assets/keyboard.jpg",
+    "stock": 8,
+    "category": "Periféricos"
+  },
+  {
+    "id": 4,
+    "name": "Power Bank 10.000 mAh",
+    "price": 21999,
+    "image": "assets/powerbank.jpg",
+    "stock": 12,
+    "category": "Energía"
+  },
+  {
+    "id": 5,
+    "name": "Webcam HD",
+    "price": 28999,
+    "image": "assets/webcam.jpg",
+    "stock": 7,
+    "category": "Video"
+  }
+]

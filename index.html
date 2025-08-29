@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyecto Final - Ecommerce JS</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <!-- SweetAlert2 para reemplazar alert/prompt/confirm -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <script src="js/ui.js" type="module" defer></script>
+  <script src="js/app.js" type="module" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Ecommerce Demo</h1>
+    <nav class="nav">
+      <button id="nav-catalogo" class="btn-link">Catálogo</button>
+      <button id="nav-carrito" class="btn-link">Carrito <span id="cart-count" class="badge">0</span></button>
+      <button id="nav-checkout" class="btn-primary">Checkout</button>
+    </nav>
+  </header>
+  <main id="app"><!-- Todo el contenido se genera desde JS --></main>
+  <footer class="site-footer">
+    <p>Proyecto Final - Arian Tresguerras</p>
+  </footer>
+</body>
+</html>
